@@ -1,0 +1,227 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #8C999F;
+}
+
+/* countainer */
+.countainer {
+    width: 840px;
+    margin: 0px auto;
+}
+
+/* main */
+#main {
+    height: 860px;
+    margin:40px auto 0;
+    position: relative;
+}
+
+#main-left,
+#main-right {
+    display: inline-block;
+    width: 380px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* main left */
+#main-left {
+    float: left;
+    height: 600px;
+    width: 450px;
+    margin-top: 80px;
+    background-image: url(img/home-phones.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#keyframe {
+    position: absolute;
+    top: 28px;
+    right: 45px;
+    height: 540px;
+    width: 250px;
+
+    animation-name: img-cheng;
+    animation-duration: 20s;
+    background-image: url(img/screenshot1.png);
+
+}
+
+@keyframes img-cheng {
+    0% {
+        background-image: url(img/screenshot1.png);
+    }
+
+    30% {
+        background-image: url(img/screenshot2.png);
+    }
+
+    60% {
+        background-image: url(img/screenshot3.png);
+    }
+
+    100% {
+        background-image: url(img/screenshot4.png);
+    }
+}
+
+/* main right */
+#main-right {
+    float: right;
+    width: 380px;
+    text-align: center;
+}
+
+#main-right div {
+    margin-bottom: 10px;
+}
+
+/* part 1 */
+#register-part {
+    border: 1px solid #DBDBDB;
+    height: 560px;
+    padding: 45px 40px;
+}
+
+#register-part img {
+    width: 180px;
+    margin: 0 auto;
+}
+
+#register-part>p:first-of-type {
+    margin: 12px auto;
+    width: 300px;
+    font-size: 17px;
+    color: #737377;
+
+}
+
+.button {
+    display: block;
+    color: white;
+    background-color: #0095F6;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 8px 0;
+}
+
+#register-part hr {
+    width: 110px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+#register-part span.or {
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px 20px;
+    color: #807E85;
+}
+
+
+/* form */
+
+.form * {
+    width: 300px;
+}
+
+.form input {
+    border: 1px solid #DBDBDB;
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+    outline-color: #a5a5a5;
+}
+
+.form p {
+    font-size: 13px;
+    font-family: Arial;
+    margin: 15px auto;
+    display: block;
+    color: #7C7773;
+}
+
+.form input.button {
+    border: 0px;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #0095F6;
+}
+
+
+
+
+/* part 2 */
+#swich-part {
+    border: 1px solid #DBDBDB;
+    height: 70px;
+    padding: 7px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#swich-part p {
+    font-size: 15px;
+}
+#swich-part a{
+    color: #0095F6;
+}
+/* part 3 */
+#footer-part {
+    height: 100px;
+}
+
+#footer-part p {
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+    margin: 15px 0;
+}
+
+#footer-part img:nth-of-type(1) {
+    height: 40px;
+    width: 132px;
+    margin: 0 5px;
+}
+
+#footer-part img:nth-of-type(2) {
+    height: 40px;
+    width: 115px;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+}
+
+#footer div {
+    height: 35px;
+}
+
+#footer div:first-of-type a {
+    color: #7C7773;
+    margin-right: 6px;
+    font-size: 12px;
+}
+
+#footer span {
+
+    color: #323130;
+    margin-left: 6px;
+    font-size: 12px;
+}
+
+#footer details {
+    display: inline-block;
+    font-size: 12px;
+    color: #7C7773;
+}
